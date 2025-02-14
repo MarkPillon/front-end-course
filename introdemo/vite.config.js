@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   server: {
     allowedHosts: [
-      '5173-markpillon-frontendcour-yknrxx3n6l4.ws-us117.gitpod.io', // Add your Gitpod host here
+      '5173-markpillon-frontendcour-yknrxx3n6l4.ws-us117.gitpod.io', 
     ],
   },
-})
+});
+ 
